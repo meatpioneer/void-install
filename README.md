@@ -1,5 +1,5 @@
 # Outline
-
+[Background](#background)
 # Background
 ## Who?
 I am an undergrad Computer Engineer at University of Illinois at Urbana-Champaign. This is mainly for myself, but also I believe (a few) others might find my documentation useful. I am an adovcate for the open and collective contribution to the field of computers, as well as science in general (that's what its all about isnt it).
