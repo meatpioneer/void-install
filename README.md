@@ -1,7 +1,7 @@
 # Install Script
 My personal install script for Void Linux.
 # Who?
-I am an undergrad Computer Engineering at University of Illinois at Urbana-Champaign. This is mainly for myself, but also I believe (a few) others might find my documentation useful. I am an adovcate for the open and collective contribution to the field of computers, as well as science in general (that's what its all about isnt it).
+I am an undergrad Computer Engineer at University of Illinois at Urbana-Champaign. This is mainly for myself, but also I believe (a few) others might find my documentation useful. I am an adovcate for the open and collective contribution to the field of computers, as well as science in general (that's what its all about isnt it).
 
 I'm working on hosting a blog website soon, but it may take time as classes are beginning soon.
 # Why?
