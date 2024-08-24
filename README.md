@@ -1,2 +1,2 @@
 # Install Script
-My personal install script for Void
+My personal install script for Void Linux
