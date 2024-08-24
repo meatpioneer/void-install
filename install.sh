@@ -22,11 +22,10 @@ fi
 # # # make sure void-linux is up-to-date
 sudo xbps-install --yes -Su
 
-# # # git is commonly used to control open source code by programmers
 # # # flatpak is a 3rd party package manager
 # # # polkit creates an organized way for non-privileged tasks to communicate with privileged ones
 # # # dbus is a mechanism that allows communication between multiple processes running concurrently
-sudo xbps-install --yes base-devel git wget flatpak polkit dbus elogind meson ninja vsv neovim neofetch xorg alacritty ranger htop chromium
+sudo xbps-install --yes base-devel wget flatpak polkit dbus elogind meson ninja vsv neovim neofetch xorg alacritty ranger htop chromium
 
 # a repo that contains the xbps source packages collection
 git clone https://github.com/void-linux/void-packages.git
