@@ -65,7 +65,6 @@ sudo bash -c 'echo "set number" >> ~/.config/nvim/init.vim'
 cd
 
 # # # vim-plug is a nvim and vim plugin manager
-# # # ranger.vim is a plugin for nvim and vim for ranger integration
 sudo sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # # # curl is a cmd tool that is used to transfer data from a server
@@ -80,7 +79,7 @@ sudo reboot
 reboot1:
 sudo rustup default stable
 
-# # # java is a programming lanuage. it uses the java runtime environment, allowing for program execution on a wide variety of architectures
+# # # java is a programming lanuage. it uses the java runtime environment
 sudo xbps-install --yes openjdk-jre openjdk11-jre openjdk17-jre openjdk21-jre
 
 # modify bash profile (add XDG_RUNTIME_DIR)
@@ -90,7 +89,9 @@ sudo xbps-install --yes dumb_runtime_dir
 # # # waybar is a bar for wayland
 # # # tofi is an applauncher
 # # # sway is a tiling window manager and wayland compositor
-# # # wayland is a replacement for the X11 window system aimed to be easier to develop, extend, and maintain. wayland is the protocol that applications can use to talk to a display server in order to make themselves visible and get input from the user. a wayland server is called a "compositor". applications are Wayland clients
+# # # wayland is a replacement for the X11 window system aimed to be easier to develop, extend, and maintain. 
+# # # wayland is the protocol that applications can use to talk to a display server in order to make themselves visible and get input from the user. 
+# # # a wayland server is called a "compositor". applications are Wayland clients
 sudo xbps-install --yes qt5-wayland qt6-wayland sway Waybar tofi
 sudo xbps-install --yes --repository=hostdir/binpkgs wlroots
 
@@ -124,14 +125,14 @@ sudo ninja -C build/ install
 
 # # # wlay is a graphical output manager for wayland
 sudo xbps-install extra-cmake-modules glfw-wayland glfw-devel
-git clone https://github.com/atx/wlay.git
-cd wlay
-sudo mkdir build
-cd build
-cmake ..
+# git clone https://github.com/atx/wlay.git
+# cd wlay
+#sudo mkdir build
+# cd build
+# cmake ..
 # make
 # ./wlay
-cd
+# cd
 
 # # # base16 & base16 universal manager
 
@@ -228,7 +229,7 @@ sudo xbps-install electron19 electron24
 # sudo mv betterdiscordctl /usr/local/bin
 
 # # # yubikey is a security key
-xbps-install -Su u2f-hidraw-policy gnupg2-scdaemon yubikey-manager pcsc-ccid pcsclite
+xbps-install --yes u2f-hidraw-policy gnupg2-scdaemon yubikey-manager pcsc-ccid pcsclite
 
 # # # # > End
 # change ~/ permissions
