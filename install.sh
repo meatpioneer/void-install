@@ -217,15 +217,15 @@ sudo flatpak install -y flathub com.valvesoftware.Steam
 sudo xbps-install electron19 electron24
 
 # # # discord is a chat and audio/video calling service
-cd void-packages
-echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf
-./xbps-src pkg discord
-sudo xbps-install --repository=hostdir/binpkgs/nonfree discord
+# cd void-packages
+#echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf
+# ./xbps-src pkg discord
+# sudo xbps-install --repository=hostdir/binpkgs/nonfree discord
 
 # # # betterdiscord is an addon to discord
-curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
-chmod +x betterdiscordctl
-sudo mv betterdiscordctl /usr/local/bin
+# curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
+# chmod +x betterdiscordctl
+# sudo mv betterdiscordctl /usr/local/bin
 
 # # # yubikey is a security key
 xbps-install -Su u2f-hidraw-policy gnupg2-scdaemon yubikey-manager pcsc-ccid pcsclite
