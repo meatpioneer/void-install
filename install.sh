@@ -101,7 +101,7 @@ ninja -C build
 sudo ninja -C build install
 
 # # # wsbg is a wallpaper utility for sway
-sudo xbps-install scdoc
+sudo xbps-install --yes scdoc
 git clone https://github.com/saibier/wsbg.git
 cd wsbg
 meson setup build/
