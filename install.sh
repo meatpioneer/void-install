@@ -200,7 +200,7 @@ sudo flatpak install -y flathub com.modrinth.ModrinthApp
 sudo flatpak install -y flathub com.valvesoftware.Steam
 
 # # # electron is a framework for building desktop applications
-sudo xbps-install electron19 electron24
+# sudo xbps-install electron19 electron24
 
 # # # discord is a chat and audio/video calling service
 # cd void-packages
