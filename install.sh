@@ -109,7 +109,7 @@ ninja -C build/
 sudo ninja -C build/ install
 
 # # # wlay is a graphical output manager for wayland
-sudo xbps-install extra-cmake-modules glfw-wayland glfw-devel
+sudo xbps-install --yes extra-cmake-modules glfw-wayland glfw-devel
 # git clone https://github.com/atx/wlay.git
 # cd wlay
 #sudo mkdir build
