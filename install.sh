@@ -49,9 +49,6 @@ sudo touch init.vim
 sudo bash -c 'echo "set number" >> ~/.config/nvim/init.vim'
 cd
 
-# # # vim-plug is a nvim and vim plugin manager
-sudo sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-
 # # # curl is a cmd tool that is used to transfer data from a server
 # # # rust is a lower level programming language. it enforces memory safety, meaning that all references point to valid memory, without a garbage collector
 # force yes
@@ -63,6 +60,9 @@ sudo reboot
 # start from reboot
 reboot1:
 sudo rustup default stable
+
+# # # vim-plug is a nvim and vim plugin manager
+sudo sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # # # java is a programming lanuage. it uses the java runtime environment
 sudo xbps-install --yes openjdk-jre openjdk11-jre openjdk17-jre openjdk21-jre
