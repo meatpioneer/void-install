@@ -148,7 +148,7 @@ sudo xbps-install --yes xdg-desktop-portal xdg-desktop-portal-wlr
 sudo cargo install handlr-regex
 
 # # # pipewire is an audio pipeline
-sudo xbps-install --yes pipewire pipewire-alsa pipewire-jack wireplumber pavucontrol rtkit
+sudo xbps-install --yes pipewire wireplumber pavucontrol rtkit
 sudo mkdir -p /etc/pipewire/pipewire.conf.d
 sudo ln -s /usr/share/examples/wireplumber/10-wireplumber.conf /etc/pipewire/pipewire.conf.d/
 sudo ln -s /usr/share/examples/pipewire/20-pipewire-pulse.conf /etc/pipewire/pipewire.conf.d/
