@@ -1,2 +1,2 @@
-# void-linux-install
+# Install Script
 My personal install script for Void
