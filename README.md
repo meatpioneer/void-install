@@ -1,5 +1,6 @@
 # Outline
 * [Background](#background)
+* [Install & Run](#install)
 # Background
 ## Who?
 I am an undergrad Computer Engineer at University of Illinois at Urbana-Champaign. This is mainly for myself, but also I believe (a few) others might find my documentation useful. I am an adovcate for the open and collective contribution to the field of computers, as well as science in general (that's what its all about isnt it).
@@ -11,7 +12,7 @@ Because I want a script to install my OS. Void Linux is very customizable/barebo
 So far this is just a simple script to install various github and xbps packages, and configure them. Documentation delving into the packages/compenents themselves will be kept here (so no one has to do extra rabbit hole diving like I had to), along with what exactly the script performs when it comes to tasks.
 ## When?
 I will be busy during this school year, but updates will hopefully happen on a weekly/monthly basis.
-# Install & Run
+# Install
 ## University Wifi (eduroam)
 Copy the wifi.sh file onto a USB drive, then proceed with the following commands:
 
