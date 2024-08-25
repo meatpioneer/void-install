@@ -99,6 +99,7 @@ cd sov
 meson setup build --buildtype=release
 ninja -C build
 sudo ninja -C build install
+cd
 
 # # # wsbg is a wallpaper utility for sway
 sudo xbps-install --yes scdoc
@@ -107,6 +108,7 @@ cd wsbg
 meson setup build/
 ninja -C build/
 sudo ninja -C build/ install
+cd
 
 # # # wlay is a graphical output manager for wayland
 sudo xbps-install --yes extra-cmake-modules glfw-wayland glfw-devel
