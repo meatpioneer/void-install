@@ -15,12 +15,21 @@ I will be busy during this school year, but updates will hopefully happen on a w
 ## University Wifi (eduroam)
 Copy the wifi.sh file onto a USB drive, then proceed with the following commands:
 To mount the usb drive, you must find the block name
+
 `lsblk`
+
 Usually, USB drives are labelled as "sda1". We then mount the drive. Here, we are mounting to the directory "/media".
+
 `sudo mount /dev/sda1 /media`
+
 Now, the USB's files and directories are available via this directory "/media" on our machine. We can now copy wifi.sh to say, our home directory.
+
 `cp /media/wifi.sh ~/`
+
 Finally, run the script and follow the prompts to input your university username and password.
+
 `sudo ~/wifi.sh`
+
 Reboot the machine and tada, you have wifi.
+
 `sudo reboot`
