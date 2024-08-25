@@ -214,7 +214,7 @@ sudo flatpak install -y flathub com.valvesoftware.Steam
 # sudo mv betterdiscordctl /usr/local/bin
 
 # # # yubikey is a security key
-xbps-install --yes u2f-hidraw-policy gnupg2-scdaemon yubikey-manager pcsc-ccid pcsclite
+sudo xbps-install --yes u2f-hidraw-policy gnupg2-scdaemon yubikey-manager pcsc-ccid pcsclite
 
 # # # # > End
 # change ~/ permissions
