@@ -14,6 +14,7 @@ I will be busy during this school year, but updates will hopefully happen on a w
 # Install & Run
 ## University Wifi (eduroam)
 Copy the wifi.sh file onto a USB drive, then proceed with the following commands:
+
 To mount the usb drive, you must find the block name
 
 `lsblk`
