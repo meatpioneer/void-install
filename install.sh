@@ -131,7 +131,8 @@ sudo xbps-install --yes greetd
 # # # tuigreet is a wayland greeter for greetd
 # # do not use vt value of 1 because grub is already set to such
 # (\”) is interpreted as (“)
-git clone https://github.com/apognu/tuigreet && cd tuigreet
+git clone https://github.com/apognu/tuigreet 
+cd tuigreet
 sudo cargo build --release
 sudo mv target/release/tuigreet /usr/local/bin/tuigreet
 sudo mkdir /var/cache/tuigreet
