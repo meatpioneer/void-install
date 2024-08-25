@@ -11,7 +11,3 @@ read -sp "Password: " password
 echo "        password=\"$password\"" >> /etc/wpa_supplicant/wpa_supplicant.conf
 echo "}" >> /etc/wpa_supplicant/wpa_supplicant.conf
 sudo wpa_supplicant -B -iwlp11s0 -c/etc/wpa_supplicant/wpa_supplicant.conf
-# update system
-sudo xbps-install -Su
-# install git
-sudo xbps-install git
