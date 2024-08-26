@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# variables
+BASEDIR=$(dirname $0)
+
 # goto-like function for bash
 # continuing after reboot
 function jumpto
@@ -170,18 +173,7 @@ sudo bash -c 'echo "set dsp.alsa.device=default" >> ~/.config/cmus/rc.conf'
 sudo bash -c 'echo "set mixer.alsa.device=default" >> ~/.config/cmus/rc.conf'
 sudo bash -c 'echo "set mixer.alsa.channel=Master" >> ~/.config/cmus/rc.conf'
 cd /usr/share/applications
-sudo touch cmus.desktop
-sudo bash -c 'echo "[Desktop Entry]" >> /usr/share/applications/cmus.desktop'
-sudo bash -c 'echo "Version=1.0" >> /usr/share/applications/cmus.desktop'
-sudo bash -c 'echo "Name=cmus" >> /usr/share/applications/cmus.desktop'
-sudo bash -c 'echo "Type=Application" >> /usr/share/applications/cmus.desktop'
-sudo bash -c 'echo "Comment=A small, fast and powerful console music player" >> /usr/share/applications/cmus.desktop'
-sudo bash -c 'echo "Terminal=true" >> /usr/share/applications/cmus.desktop'
-sudo bash -c 'echo "Exec=cmus" >> /usr/share/applications/cmus.desktop'
-sudo bash -c 'echo "Categories=ConsoleOnly;Audio;Player;" >> /usr/share/applications/cmus.desktop'
-sudo bash -c 'echo "GenericName=Music player" >> /usr/share/applications/cmus.desktop'
-sudo bash -c 'echo "Keywords=cmus;audio;player;" >> /usr/share/applications/cmus.desktop'
-cd
+cp ${BASEDIR}/cmus.desktop /usr/share/applications/cmus.desktop
 
 # # # nvm is a manager for javascript node
 sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash

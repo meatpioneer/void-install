@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=cmus
+Type=Application
+Comment=A small, fast and powerful console music player
+Terminal=true
+Exec=cmus
+Categories=ConsoleOnly;Audio;Player;
+GenericName=Music player"
+Keywords=cmus;audio;player;
