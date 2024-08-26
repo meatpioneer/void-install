@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# test
-
 # variables
 BASEDIR=$(dirname $0)
 
