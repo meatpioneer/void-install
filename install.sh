@@ -38,6 +38,9 @@ cd void-packages
 # gtk3
 sudo xbps-install --yes gtk+3-devel
 
+# school programs: subversion
+sudo xpbs-install --yes svn
+
 # add flathub
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
